@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>小空间大梨想-团状态</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="telephone=no" name="format-detection">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="status_bg">
+	<div class="m_top">
+		<img src="images/status_01.png">
+		<div class="main_cont status_cont">
+			<div class="pear_tit">
+				<h4>新疆库尔勒香梨</h4>
+				<div class="price">
+					<span class="left"><b>0</b>元</span><span class="right">市场价￥25.00</span>
+				</div>
+			</div>
+			<div class="ewm_rate">
+				<div class="hint">当前团状态 差<span>2</span>人</div>
+				<div class="total">
+					<div class="percent">
+						<em><i>1</i>人</em>
+					</div>
+				</div>
+			</div>
+			<div class="ewm_cont">
+				<div class="ewm_main">
+					<img src="images/bg.png" alt=""><!-- 这里的img不要去掉 -->
+					<canvas></canvas>
+				</div>
+			</div>
+			<div class="atonce_btn num_one">
+				<a href="##" class="atonce_invite">刷新邀请状态</a>
+			</div>	
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var n = 3;
+			var w = n/5 *100 + '%';
+			$(".ewm_rate .percent").width(w);
+		});
+	</script>
+</body>
+</html>
