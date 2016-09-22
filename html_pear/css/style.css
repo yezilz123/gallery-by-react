@@ -146,7 +146,7 @@ footer{background: #106C0D;}
 .status_cont .atonce_btn{padding:0.8rem 0 1rem;}
 .status_cont .atonce_btn a{color: #5A9900; background: #FFFF00;}
 
-
+/*320以下*/
 @media screen and (max-device-width:320px){
 	.receiver-list{width: 98%;}
 	.receiver-list li{padding: 0;}
