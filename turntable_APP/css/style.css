@@ -1,0 +1,80 @@
+@charset "utf-8";
+html{font-size:62.5%; font-family:"Microsoft YaHei","Helvetica",Arial; -webkit-text-size-adjust:100%;	-ms-text-size-adjust:100%;}
+.cms-module a{text-decoration:none;}
+
+.cf:before,.cf:after{content:""; display:table;}
+.cf2:after {content: ""; display:block; height:0; clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.tc{display: table-cell; width: 99999px;}
+.clear{clear:both;}
+.hide{display: none;}
+/*=======================*/
+body{background: #0578FF;}
+.turn_tit img,footer img{width: 100%; height: auto; display: block;}
+.nine_grid{margin: 1rem 0; padding:0 3%;}
+.nine_grid li{float: left; position: relative; width: 32%; height: 8rem; margin: 1% 1%; padding: 0.5rem 0; border-radius: 12px; background: #96C8F8;}
+.nine_grid li:nth-of-type(3n+1){margin-left: 0;}
+.nine_grid li:nth-of-type(3n){margin-right: 0;}
+.nine_grid li .prize_img{height: 8rem; box-sizing: border-box; display: -webkit-box; -webkit-box-pack:center; -webkit-box-align:center;}
+.nine_grid li img{max-width: 80%; margin: 0 auto; max-height: 6rem; display: block;}
+.nine_grid li span{position: absolute; bottom: 0.8rem; left: 0; width: 100%; height: 1rem; line-height: 1rem; text-align: center; color: #000; font-weight: bold; display: block;}
+.nine_grid li.lottery{color: #054997; font-size: 2.8rem; font-weight: bold; line-height: 1.2;
+	background: -webkit-linear-gradient(top,#FFE13B,#FFE03B 12%,#F9CB3B 77%,#F1B03B);
+	background:-webkit-gradient(linear, left top, left bottom, from(#FFE13B),color-stop(0.12,#FFE13B),color-stop(0.77,#F9CB3B),#F1B03B);
+}
+.nine_grid li.lottery-unit-5 img{margin-top: -10px;}
+.nine_grid li.active{background: #fff;}
+
+.receiver-list{width: 94.6%; margin: 0 auto; padding: 1rem 0; border-radius: 12px; background: #055AC6;}
+.receiver-list dl, .receiver-list dt, .receiver-list dd{float: left; height:35px; line-height: 35px; display: block;}
+	.receiver-list dt, .receiver-list dd{padding: 0 5px; font-size: 12px;color: #fff; }
+	.receiver-list dt{ width:35px; height:35px; border-radius: 50%; overflow: hidden;}
+	.receiver-list dt img{width:35px; height:35px;}
+	.receiver-list ul{clear: both; max-height:200px; overflow: auto;}
+.receiver-list li{height: 35px; width: 100%; margin: 5px 0; padding: 0 0.5rem; box-sizing: border-box;}
+.receiver-list li dl{width: 100%; overflow: hidden;}
+.receiver-list li dd:last-child{float: right;}
+.receiver-list h3{text-align: center; font-size: 1.3rem; color: #3E3A39;}
+.empty-col{clear: both;}
+.receiver-col{margin-bottom: 10px;}
+.receiver-col0 .receiver-list{padding: 3rem 0 0;}
+.receiver-col .process{position: relative; width: 70%; height: 30px; line-height: 32px; margin: 10px auto; font-size:1.8rem; color: #fff; text-align: center;}
+.receiver-col .process:after{content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 15px; border-bottom: 1px solid #fff; z-index: -1;}
+.receiver-col .process .pro_tit{height: 30px;padding: 0 10px; background: #0578FF;}
+footer{background: #052C75;}
+
+/*弹出层*/
+.bomb,.bomb_a,.bomb_b{position: fixed; left: 0; top: 0; width: 100%; height: 100%; background:rgba(0,0,0,0.7); z-index: 1000;}
+.bomb_cont{position: absolute; left: 50%; top: 50%; width: 80%; max-width: 400px; height: auto;
+	-webkit-transform:translate(-50%,-50%);}
+.product_cont{padding: 1.5rem 1rem 1rem; border-radius: 12px; background: #0578ff;}
+.product_cont img{width: 70%; margin: 0 auto; display: block;}
+.results h2,.results h3{font-size: 1.5rem; text-align: center; color: #fff;}
+.results h2{/*font-weight: bold; */font-size: 1.7rem;}
+.results{position: relative; padding-bottom: 1.5rem; border-bottom: 1px solid #fff;}
+.results:after{content: ""; position: absolute;left:50%; bottom: -0.5rem; width: 1rem; height: 1rem; border-radius: 50%; background: #fff; -webkit-transform: translate(-50%,0); transform: translate(-50%,0);}
+.hint{text-align: center; padding: 1rem 0 0.5rem; color: #05fbff; font-size: 1.3rem;}
+.atonce_btn{height: 3.5rem; padding: 2rem 0; text-align: center;}
+.atonce_btn a{height: 3.5rem; line-height: 3.5rem; text-align: center; margin: 0 5%; font-size: 1.6rem; color: #004ba7; border-radius: 6px; background: #ffd100; display: inline-block;}
+.atonce_btn.num_one a{width: 55.6%;}
+.bomb_cont .atonce_btn{padding:1rem 0;}
+.bomb_cont .atonce_btn a{width: 70%; }
+
+.product_had{padding: 3rem 1rem 0.5rem; border-radius: 6px; background: #F5F6F6; }
+.product_had .results h2,.product_had .results h3{line-height: 1.8; color: #fff;}
+.results_out{padding: 3rem 0rem;  border-radius: 6px;}
+.results_out .results{margin-bottom: 1rem;}
+.results_out .results h1{font-size:2.1rem; color: #fff; font-weight: bold; text-align: center;}
+.close{position: absolute; left: 50%; bottom: -5rem; -webkit-transform: translate(-50%,0); transform: translate(-50%,0); width: 4rem; height: 4rem; background: url(../images/close_btn.png) no-repeat center; background-size: 2.8rem auto;}
+
+/*抽奖规则 20160921*/
+.lottery_rule{padding: 15px 10px; line-height: 1.6; font-size: 13px; background: #0DC8DA;}
+.lottery_rule .sect,.lottery_rule .tit{width: 94.6%; margin: 0 auto;}
+.lottery_rule .tit{padding-bottom: 10px; text-align: center;}
+.lottery_rule .tit span{padding: 3px 8px; font-size: 16px; font-weight: bold; border-top: 1px solid #000; border-bottom: 1px solid #000;}
+.lottery_rule .sect{padding: 4px 0;}
+.lottery_rule .sect em{float: left; font-weight: bold; display: block;}
+.lottery_rule .sect span{margin-left: 20px; display: block;}
+.lottery_rule .sect ul{margin-left: 15px;}
+.lottery_rule .sect li{ list-style: disc;}

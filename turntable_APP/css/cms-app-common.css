@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+header,nav,article,section,asider,footer{display:block;}
+html{font-size:62.5%; font-family:"Microsoft YaHei","Helvetica",Arial; -webkit-text-size-adjust:100%;	-ms-text-size-adjust:100%;}
+body{min-width:320px; overflow-x:hidden;}
+input::-webkit-input-placeholder{font-size: 1.3rem; color: #ddd;}
+input,select{vertical-align:middle; font-family:"microsoft yahei",Arial;}
+textarea{font-family:"microsoft yahei",Arial; padding:.5rem; resize:none;}
+input[type="button"]:hover{opacity:0.8; cursor:pointer;}
+/*清除safri浏览器默认的表单样式*/
+input,button,textarea{ -webkit-appearance: none;}
+input[type="radio"]{-webkit-appearance:radio;}
+input[type="checkbox"]{-webkit-appearance:checkbox;}
+
+table{ border-collapse:collapse;}
+ul{ list-style:none;}
+a img{vertical-align: bottom;}
+a{text-decoration:none; color:#666;}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0; text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+b,i,em{font-style:normal;}
+
+/*-------------------------结束公用样式--------------------------*/
